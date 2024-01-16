@@ -39,6 +39,11 @@ class PageDraw extends StatelessWidget {
             size: 35,
             color: Colors.grey.shade900,
           ),
+          Icon(
+            Icons.info,
+            size: 35,
+            color: Colors.grey.shade900,
+          ),
         ],
         onTap: (index) {
           _pageController.animateToPage(index,
