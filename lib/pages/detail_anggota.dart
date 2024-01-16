@@ -34,7 +34,6 @@ class _DetailAnggotaState extends State<DetailAnggota> {
                   Navigator.pop(context);
                 },
               ),
-              trailing: Icon(Icons.menu ),
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
