@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:mandiri_pbb/menu/footer.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -13,55 +12,10 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Portfolio"),
+        title: Text("Portfolio Member"),
+        centerTitle: true,
+        backgroundColor: Color.fromARGB(255, 87,139,152),
       ),
-      // body: ListView(
-      //       children: [
-      //         for(int i = 0; i<mahasiswa.length;i++)
-      //           InkWell(
-      //             onTap: () {
-      //             Navigator.push(context, 
-      //               MaterialPageRoute(builder: (context) => 
-      //                 DetailContactPage(
-      //                   nama: mahasiswa[i]['nama'].toString(),
-      //                   npm: mahasiswa[i]['npm'].toString(),
-      //                   prodi: mahasiswa[i]['prodi'].toString(),
-      //                   img: mahasiswa[i]['img'].toString()
-      //                 ),
-      //               ),
-      //             ); 
-      //             },child: Container(
-      //               height: 80,
-      //               alignment: Alignment.centerLeft,
-      //               padding: EdgeInsets.all(5),
-      //               decoration: BoxDecoration(
-      //                 // color: (mahasiswa[i]['prodi'] != null && mahasiswa[i]['prodi'].toString() == 'Informatika Program Sarjana') ? Colors.blue : Colors.yellow,
-      //                 border: Border(
-      //                   bottom: BorderSide(
-      //                     color: Colors.grey,
-      //                     width: 2
-      //                   )
-      //                 )
-      //               ),
-      //                 child: ListTile(
-      //                   leading: CircleAvatar(
-      //                     foregroundImage: AssetImage(mahasiswa[i]['img'].toString()),
-      //                   ),
-      //                   title: Text(
-      //                     mahasiswa[i]['nama'].toString(),
-      //                     style: TextStyle(
-      //                       fontWeight: FontWeight.bold,
-      //                     ),
-      //                   ),
-      //                   subtitle: Text(
-      //                     mahasiswa[i]['prodi'].toString(),
-      //                   ),
-      //                 ),
-      //             ),
-      //           ),
-      //       ],
-      //     ),
-      bottomNavigationBar: Footer(),
     );
   }
 }

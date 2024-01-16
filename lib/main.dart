@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
 import 'package:mandiri_pbb/pages/homepage.dart';
 import 'package:mandiri_pbb/pages/list_anggota.dart';
+import 'package:mandiri_pbb/menu/pagedraw.dart';
 
 void main() {
   WidgetsBinding widgetsBinding = WidgetsFlutterBinding.ensureInitialized(); 
@@ -38,10 +39,9 @@ class _MainAppState extends State<MainApp> {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      debugShowCheckedModeBanner: false,
+    return MaterialApp(
       home: Scaffold(
-        body: ListAnggota(),
+        body: PageDraw(),
       ),
     );
   }

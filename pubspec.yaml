@@ -7,11 +7,15 @@ environment:
   sdk: '>=3.2.3 <4.0.0'
 
 dependencies:
+  curved_navigation_bar: ^1.0.3
+  cupertino_icons: ^1.0.2
   flutter:
     sdk: flutter
   flutter_native_splash: ^2.3.9
-  google_fonts: ^4.0.0
+  google_fonts: ^6.1.0
   toggle_switch: ^2.1.0
+  animated_toggle_switch: ^0.8.0
+  url_launcher: ^6.2.3
 
 dev_dependencies:
   flutter_test:
@@ -28,4 +32,4 @@ flutter_native_splash:
   ios: true 
   web: true 
   color: "#578b98" 
-  image: "assets/images/PILEMAS.png"
+  image: "assets/images/PIL EMAS.png"
