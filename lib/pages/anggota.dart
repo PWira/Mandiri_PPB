@@ -1,13 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:mandiri_pbb/pages/list_anggota.dart';
 
-class HomePage extends StatefulWidget {
-  const HomePage({super.key});
+class Anggota extends StatefulWidget {
+  const Anggota({super.key});
 
   @override
-  State<HomePage> createState() => _HomePageState();
+  State<Anggota> createState() => _AnggotaState();
 }
 
-class _HomePageState extends State<HomePage> {
+class _AnggotaState extends State<Anggota> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -16,6 +17,7 @@ class _HomePageState extends State<HomePage> {
         centerTitle: true,
         backgroundColor: Color.fromARGB(255, 87,139,152),
       ),
+      body: ListAnggota(),
     );
   }
 }

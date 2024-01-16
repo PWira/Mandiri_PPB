@@ -2,7 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
-import 'package:mandiri_pbb/pages/homepage.dart';
+import 'package:mandiri_pbb/pages/anggota.dart';
 import 'package:mandiri_pbb/pages/menutips.dart';
 import 'package:mandiri_pbb/pages/tentang.dart';
 
@@ -22,7 +22,7 @@ class PageDraw extends StatelessWidget {
       body:
         PageView(
         controller: _pageController,
-        children: [MenuTips(), HomePage(), Tentang()],
+        children: [MenuTips(), Anggota(), Tentang()],
         ),
       bottomNavigationBar: CurvedNavigationBar(
         backgroundColor: Colors.grey.shade400,
