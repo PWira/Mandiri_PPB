@@ -14,7 +14,7 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         title: Text("Portfolio Member"),
         centerTitle: true,
-        backgroundColor: Color.fromARGB(255, 0, 255, 255),
+        backgroundColor: Color.fromARGB(255, 87,139,152),
       ),
     );
   }

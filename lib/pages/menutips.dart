@@ -9,13 +9,13 @@ class MenuTips extends StatelessWidget {
       appBar: AppBar(
         title: Text('Tips Kesehatan'),
         centerTitle: true,
-        backgroundColor: Color.fromARGB(255, 244, 20, 4),
+        backgroundColor: Color.fromARGB(255, 87,139,152),
       ),
-      backgroundColor: Color.fromARGB(255, 234, 177, 177),
+      // backgroundColor: Color.fromARGB(255, 234, 177, 177),
       body: GridView.builder(
           gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
             crossAxisCount: 2,
-            childAspectRatio: 2.5,
+            childAspectRatio: 1,
           ),
           itemCount: TipsList.length,
           itemBuilder: (context, index) {
@@ -23,15 +23,23 @@ class MenuTips extends StatelessWidget {
             return Card(
               color: Color.fromARGB(255, 255, 255, 255),
               child: ListTile(
-                leading: Image.network(obat.imageUrl),
-                title: Text(obat.title, textAlign: TextAlign.right),
-                subtitle: Text(""),
-                trailing: Icon(Icons.arrow_forward_rounded),
+                title: Column(
+                  children: [
+                    Expanded(
+                      child: Image.asset(obat.ImageAsset),
+                    ),
+                    SizedBox(height: 5),
+                    Text(obat.title, textAlign: TextAlign.center),
+                  ],
+                ),
+                contentPadding: EdgeInsets.only(bottom: 10),
+                // trailing: Icon(Icons.arrow_forward_rounded),
                 onTap: () {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                        builder: (context) => ObatDetailsScreen(obat)),
+                      builder: (context) => ObatDetailsScreen(obat)
+                    ),
                   );
                 },
               ),

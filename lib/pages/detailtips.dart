@@ -21,8 +21,8 @@ class ObatDetailsScreen extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
                 Center(
-                  child: Image.network(
-                    obat.imageUrl,
+                  child: Image.asset(
+                    obat.ImageAsset,
                     height: 400, 
                   ),
                 ),
