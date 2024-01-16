@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:mandiri_pbb/data/tips.dart';
-import 'package:mandiri_pbb/pages/detailobat.dart';
+import 'package:mandiri_pbb/pages/detailtips.dart';
 
-class MenuObat extends StatelessWidget {
+class MenuTips extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
