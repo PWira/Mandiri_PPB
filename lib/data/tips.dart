@@ -42,7 +42,7 @@ Petroleum jelly adalah salah satu bahan utama pada banyak lip balm yang kerap di
           'Namun, karena Rukia tidak dapat memperoleh kembali kekuatannya, Ichigo diberi tugas berat untuk memburu Hollow yang mengganggu kota mereka. Namun, dia tidak sendirian dalam pertarungannya, karena dia kemudian bergabung dengan teman-temannya—teman sekelas Orihime Inoue, Yasutora Sado, dan Uryuu Ishida—yang masing-masing memiliki kemampuan uniknya sendiri. Ketika Ichigo dan rekan-rekannya terbiasa dengan tugas baru mereka dan saling mendukung di dalam dan di luar medan perang, Soul Reaper muda segera mengetahui bahwa Hollow bukanlah satu-satunya ancaman nyata bagi dunia manusia.',
 
       ImageAsset:
-          'images/'),
+          'images/bibir.jpg'),
   Tips(
       title: 'One Piece',
       description:
@@ -61,14 +61,75 @@ Petroleum jelly adalah salah satu bahan utama pada banyak lip balm yang kerap di
       ImageAsset:
           'images/PILEMAS.png'),
   Tips(
-      title: "Hunter x Hunter",
+      title: "Penyebab dan Cara Mengatasi Radang Amandel Secara Alami",
 
       description:
-          "Pemburu mengabdikan diri untuk menyelesaikan tugas-tugas berbahaya, mulai dari melintasi wilayah yang belum dipetakan di dunia hingga menemukan barang langka dan monster. Sebelum menjadi Hunter, seseorang harus lulus Ujian Hunter—sebuah proses seleksi berisiko tinggi di mana sebagian besar pelamar berakhir dengan cacat atau lebih buruk lagi, meninggal."
-          "Peserta ambisius yang menantang ujian terkenal ini memiliki alasannya sendiri. Apa yang mendorong Gon Freecss yang berusia 12 tahun adalah menemukan Ging, ayahnya, dan seorang Hunter sendiri. Percaya bahwa dia akan bertemu ayahnya dengan menjadi seorang Hunter, Gon mengambil langkah pertama untuk menempuh jalan yang sama."
-          "Selama Ujian Hunter, Gon berteman dengan mahasiswa kedokteran Leorio Paladiknight, Kurapika yang pendendam, dan mantan pembunuh Killua Zoldyck. Meskipun motif mereka sangat berbeda satu sama lain, mereka bersatu demi tujuan yang sama dan mulai menjelajah ke dunia yang penuh bahaya.",
+          """
+Penyebab dan Cara Mengatasi Radang Amandel Secara Alami
+
+Radang amandel, yang juga dikenal sebagai tonsilitis, adalah kondisi medis yang ditandai oleh peradangan amandel, yaitu dua benjolan jaringan limfoid yang terletak di bagian belakang tenggorokan.
+Penyakit ini dapat terjadi pada orang dari segala usia, tetapi paling umum terjadi pada anak-anak dan remaja.
+
+Ada dua jenis utama radang amandel diantaranya adalah radang amandel akut dan radang amandel kronis.
+
+
+Radang Amandel Akut
+
+Radang amandel akut adalah kondisi di mana amandel tiba-tiba meradang dan biasanya disebabkan oleh infeksi virus atau bakteri. Gejalanya meliputi sakit tenggorokan, kesulitan menelan, demam, sakit kepala, dan pembengkakan amandel. 
+Infeksi bakteri yang umum adalah Streptococcus pyogenes, yang dapat menyebabkan radang amandel streptokokus.
+
+Radang Amandel Kronis
+
+Radang amandel kronis adalah kondisi di mana amandel mengalami peradangan berulang atau persisten.
+Gejalanya bisa lebih ringan daripada radang amandel akut dan mungkin tidak selalu disertai demam. Pada beberapa kasus, radang amandel kronis dapat menjadi masalah yang berkepanjangan.
+
+
+Penyebab
+
+
+1.Infeksi Bakteri
+Salah satu penyebab paling umum radang amandel adalah infeksi bakteri, khususnya oleh bakteri Streptococcus pyogenes, yang sering disebut sebagai streptokokus. Ini disebut sebagai radang amandel streptokokus. 
+Bakteri ini dapat menyebabkan radang amandel akut, yang biasanya memerlukan pengobatan dengan antibiotik.
+
+2.Infeksi Virus
+Virus juga dapat menyebabkan radang amandel. Virus yang menyebabkan pilek, flu, atau mononukleosis (misalnya, Epstein-Barr virus) dapat merangsang peradangan amandel.
+Radang amandel virus cenderung lebih umum daripada radang amandel bakteri.Paparan Bakteri dan Virus: Tonsil adalah bagian dari sistem kekebalan tubuh yang membantu melawan infeksi. 
+Ketika amandel terpapar bakteri dan virus berulang kali, ini dapat menyebabkan radang kronis.
+
+3.Faktor Lingkungan
+Faktor-faktor lingkungan, seperti polusi udara atau asap rokok, juga dapat mempengaruhi amandel dan meningkatkan risiko radang amandel.
+
+4.Penurunan Kekebalan Tubuh
+Sistem kekebalan tubuh yang lemah dapat membuat seseorang lebih rentan terhadap infeksi bakteri dan virus, yang dapat menyebabkan radang amandel.
+
+Cara Mengatasi Radang Amandel Secara Alami
+
+1.Berkumur dengan air garam
+Berkumur dengan air hangat yang dicampur garam dapat membantu meredakan sakit tenggorokan akibat radang amandel. 
+Cara mengobati amandel secara alami ini juga dapat membantu mengurangi peradangan dan infeksi amandel. Untuk mengobati amandel, Anda dapat mencampurkan ½ sendok teh garam dalam ½ gelas air hangat.
+Lalu, berkumurlah dengan menempatkan larutan tersebut di pangkal tenggorokan (gargle) selama beberapa detik.
+
+2.Hindari Rokok
+Bagi Anda yang menjadi perokok aktif, saat radang amandel sebaiknya kurangi kebiasaan merokok. Bagi penderita lain yang menjadi perokok pasif,
+hindarilah paparan asap rokok atau zat lain yang dapat menambah iritasi pada saluran pernapasan Anda.
+
+3.Minum Jus Jambu Biji
+Selain enak dan menyegarkan, jus jambu biji juga termasuk nominasi cara mengobati amandel secara alami. Buah jambu memiliki kandungan vitamin C yang tinggi, 
+serta dipercaya mampu membantu mempercepat penyembuhan. Konsumsilah jus jambu biji setiap hari untuk membantu meringankan sakit amandel.
+
+4.Minum Teh Hangat dengan Madu
+Campuran teh hangat dan madu dapat membantu dalam mengurangi perasaan tidak nyaman saat mengalami radang amandel. Madu mengandung sifat antibakteri yang ampuh dalam mengatasi infeksi penyebab tonsilitis. 
+Pastikan untuk mengaduk madu hingga larut dan konsumsi teh selagi masih panas. Agar manfaatnya lebih terasa, coba untuk menggunakan teh jahe yang mengandung anti-inflamasi yang kuat.
+
+5.Istirahat yang cukup
+Orang yang mengidap radang amandel harus mendapatkan istirahat sebanyak mungkin. Istirahat akan memungkinkan tubuh untuk melawan infeksi virus atau bakteri. Melanjutkan pergi bekerja atau sekolah tidak hanya meningkatkan 
+kemungkinan seseorang sakit lebih lama, tetapi juga dapat membuat orang lain berisiko tertular infeksi.
+
+
+
+""",
       ImageAsset:
-          'images/'),
+          'images/gg.jpg'),
   Tips(
       title: "Jujutsu Kaisen",
 
@@ -77,21 +138,57 @@ Petroleum jelly adalah salah satu bahan utama pada banyak lip balm yang kerap di
           "Yuuji merasakan langsung ancaman yang ditimbulkan oleh Kutukan ini terhadap masyarakat saat dia menemukan kekuatan barunya. Diperkenalkan ke Sekolah Menengah Jujutsu Prefektur Tokyo, dia mulai menempuh jalan yang tidak bisa dia kembalikan lagi—jalan seorang penyihir Jujutsu.",
       ImageAsset: 'images/'),
   Tips(
-      title: "Gintama",
+      title: "Apa Pentingnya Mencuci Tangan?",
 
       description:
-          "Edo adalah kota yang menjadi rumah bagi semangat dan ambisi samurai di seluruh negeri. Namun, setelah penyerahan feodal Jepang kepada alien kuat yang dikenal sebagai Amanto, aspirasi tersebut kini tampaknya tidak dapat dicapai. Dengan dibangunnya kembali keshogunan yang dulunya berpengaruh sebagai pemerintahan boneka, undang-undang baru disahkan yang melarang semua penggunaan pedang di depan umum."
-          "Masuklah Gintoki Sakata, seorang pria eksentrik berambut perak yang selalu membawa pedang kayu dan mempertahankan statusnya sebagai seorang samurai meskipun ada larangan. Sebagai pendiri Yorozuya, sebuah usaha kecil-kecilan untuk pekerjaan sambilan, Gintoki sering kali melakukan upaya untuk membantu orang lain—meskipun biasanya dengan cara yang agak aneh dan tidak terduga."
-          "Dibantu oleh Shinpachi Shimura, seorang anak laki-laki berkacamata yang konon sedang mempelajari jalan samurai; Kagura, gadis tomboy dengan kekuatan super dan nafsu makan yang tak ada habisnya; dan Sadaharu, anjing peliharaan raksasa mereka yang suka menggigit kepala orang, Yorozuya menghadapi apa pun mulai dari bangsawan asing hingga perkelahian dengan geng lokal di dunia Edo yang selalu berubah.",
+        """
+Kuman penyebab penyakit dapat menyerang Anda kapanpun dan dimanapun. Kuman dapat muncul dimana saja, entah saat Anda bekerja, saat Anda bepergian, atau bahkan di rumah. Mereka dapat menempel di permukaan barang-barang yang Anda gunakan, atau bahkan dapat menempel pada bagian tubuh, termasuk tangan Anda.
+
+Tangan merupakan anggota tubuh yang sering sekali kita gunakan untuk menyentuh benda-benda lain. Sehingga tidak jarang kuman-kuman penyebab penyakit menempel di tangan dan menyebabkan penyakit. Sebut saja diare, demam tifoid (tipes), hepatitis, COVID-19, dan masih banyak jenis infeksi lainnya.
+
+Kotoran manusia dan hewan merupakan sumber dari kuman penyebab penyakit seperti E. coli  atau Salmonella. Bakteri-bakteri ini dapat menyebabkan berbagai penyakit pada saluran pencernaan, infeksi saluran pernapasan, dan infeksi lainnya. 
+
+Menurut CDC, 1 gram kotoran manusia mengandung 1 triliun kuman penyebab penyakit. Tentu tidak sedikit bukan? Oleh karena itu, alasan pentingnya mencuci tangan ini seharusnya sudah disadari oleh banyak orang. Terutama dalam mencegah berbagai infeksi.
+
+Cuci tangan dengan sabun dan air mengalir adalah cara yang dapat menghilangkan kuman penyebab penyakit di tangan. Hal ini sangat membantu mencegah infeksi karena:
+
+Orang sering sekali menyentuh mata, hidung, dan mulut mereka tanpa menyadarinya. Kuman bisa masuk ke tubuh melalui mata, hidung dan mulut kemudian membuat Anda menjadi sakit.
+Kuman dari tangan yang kotor bisa masuk ke makanan dan minuman saat Anda menyiapkan atau mengkonsumsinya. Bahkan kuman bisa berkembang biak pada beberapa jenis makanan atau minuman, dalam kondisi tertentu, dan membuat orang menjadi sakit.
+Kuman dari tangan yang kotor dapat berpindah ke benda lain, seperti railing tangga, meja, atau mainan, dan kemudian berpindah ke tangan orang lain.""",
       ImageAsset:
-          'images/'),
+          'images/tangan.jpg'),
   Tips(
-      title: "Dr. Stone",
+      title: "Kesehatan Ginjal Menjaga kesehatan ginjal",
 
       description:
-          "Setelah lima tahun memendam perasaan yang tak terucapkan, siswa sekolah menengah Taiju Ooki akhirnya siap menyatakan cintanya kepada Yuzuriha Ogawa. Tepat ketika Taiju memulai pengakuannya, cahaya hijau yang menyilaukan menerpa bumi dan membatu umat manusia di seluruh dunia—mengubah setiap manusia menjadi batu."
-          "Beberapa milenium kemudian, Taiju terbangun dan mendapati dunia modern sama sekali tidak ada, karena alam telah berkembang pesat di tahun-tahun ketika umat manusia masih terhenti. Di antara dunia patung batu, Taiju bertemu dengan manusia hidup lainnya: temannya yang mencintai sains, Senkuu, yang telah aktif selama beberapa bulan. Taiju mengetahui bahwa Senkuu telah mengembangkan skema besar—untuk meluncurkan kebangkitan peradaban sepenuhnya dengan sains. Kekuatan Taiju dan otak Senkuu bersatu membentuk kemitraan yang hebat, dan mereka segera menemukan metode untuk menghidupkan kembali mereka yang membatu."
-          "Namun, rencana induk Senkuu terancam ketika ideologinya ditantang oleh mereka yang bangkit. Sementara itu, alasan membatunya umat manusia masih belum diketahui.",
+         """
+Mengenali Berbagai Cara Menjaga Kesehatan Ginjal Menjaga kesehatan ginjal adalah sesuatu yang penting untuk kesehatan tubuh secara keseluruhan. Dengan menjaga ginjal tetap sehat,
+tubuh akan menyaring dan mengeluarkan limbah dengan baik serta menghasilkan hormon untuk membantu tubuh Anda berfungsi dengan optimal.
+
+Berikut ini adalah berbagai cara menjaga kesehatan ginjal yang bisa Anda lakukan, di antaranya
+
+1. Olahraga Teratur Cara menjaga ginjal tetap sehat yang paling mudah dilakukan adalah dengan olahraga. Selain berguna untuk mengurangi lingkar pinggang, rutin berolahraga dapat menurunkan risiko penyakit ginjal kronis. Olahraga rutin juga dapat mengurangi tekanan darah dan meningkatkan kesehatan jantung, di mana keduanya adalah hal penting untuk mencegah kerusakan ginjal. Berjalan, berlari, bersepeda, hingga menari adalah aktivitas yang baik untuk menjaga kebugaran tubuh.
+Temukan aktivitas yang membuat Anda dapat terus aktif dan bahagia. 
+
+2. Mengontrol Kadar Gula Darah Cara menjaga kesehatan ginjal berikutnya adalah dengan menjaga kadar gula darah tubuh tetap stabil. Kelebihan gula dalam darah akan dikeluarkan ginjal ke dalam urine, proses ini memberi beban kerja tambahan kepada ginjal. Penyakit ginjal (nefropati DM) merupakan komplikasi yang sering terjadi pada penderita diabetes. Penderita DM sebaiknya secara berkala memeriksa fungsi ginjal (Ureum, Creatinin, Microalbuminuria). 
+Jika kerusakan diketahui lebih awal, dokter dapat mengambil langkah-langkah untuk mengurangi atau mencegah kerusakan tambahan.
+
+
+3. Memantau Tekanan Darah Selain kadar gula darah yang harus dikontrol, tips menjaga kesehatan ginjal yang harus diperhatikan adalah kondisi tekanan darah. Jika tekanan darah dalam tubuh tinggi, hal itu berisiko menimbulkan kerusakan ginjal. Efek samping lainnya dari kondisi ini adalah diabetes, penyakit jantung, atau meningkatkan kadar kolesterol. Tekanan darah normal orang dewasa adalah 120/80 mmHg, jika pembacaan tekanan darah Anda secara konsisten berada di atas 140/90 mmHg, Anda mungkin memiliki tekanan darah tinggi.
+Konsultasi dengan dokter untuk mendapatkan penanganan yang tepat.
+
+4. Menjaga Berat Badan Ideal Seseorang yang mengalami obesitas berisiko tinggi memiliki beberapa masalah kesehatan, salah satunya adalah masalah pada ginjal. Oleh karena itu, cara menjaga kesehatan ginjal adalah dengan menjaga berat tubuh tetap ideal. Bagaimana mengukur berat tubuh dikatakan ideal? Anda bisa menggunakan kalkulator indeks massa tubuh untuk menentukan apakah Anda memiliki berat badan yang sehat. 
+
+5. Konsumsi Makanan Sehat Ginjal Anda memproses semua makanan atau minuman yang dikonsumsi, termasuk apa pun yang buruk bagi tubuh seperti lemak, garam, dan gula. Seiring waktu, diet yang buruk dapat menyebabkan tekanan darah tinggi, obesitas, hingga diabetes. Oleh karena itu, cara menjaga kesehatan ginjal adalah dengan diet sehat sehat seperti mengonsumsi banyak sayuran, buah-buahan, biji-bijian, dan mengurangi makanan olahan.
+
+6. Penuhi Asupan Cairan Tubuh Jika Anda sering mendengar saran mengenai pentingnya mengonsumsi delapan gelas air dalam sehari, namun Anda sering mengabaikannya, sepertinya kebiasaan buruk itu harus dikurangi. Asupan cairan tubuh yang cukup ternyata dapat mendorong kesehatan ginjal. Cara menjaga kesehatan ginjal dengan banyak mengonsumsi air putih ternyata dapat membantu membersihkan natrium dan racun dari ginjal, di mana hal ini juga menurunkan risiko penyakit ginjal kronis.
+
+ 7. Jangan Merokok Merokok adalah aktivitas yang dapat merusak pembuluh darah. Kondisi ini menyebabkan aliran darah ke seluruh tubuh menjadi lebih lambat, termasuk aliran darah ke ginjal. Merokok juga menempatkan ginjal pada peningkatan risiko kanker. Jika Anda berhenti merokok, risiko masalah pada ginjal akan menurun.
+
+
+
+
+""",
       ImageAsset:
-          'images/'),
+          'images/ginjal.jpg'),
 ];
