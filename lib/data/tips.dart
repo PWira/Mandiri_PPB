@@ -1,3 +1,5 @@
+// ignore_for_file: non_constant_identifier_names
+
 class Tips {
   String title;
   String description;
@@ -11,12 +13,28 @@ class Tips {
 
 List<Tips> TipsList = [
   Tips(
-      title: 'Naruto Shippuden',
+      title: 'Cara Mengatasi Bibir Kering secara Alami dan Efektif',
       description:
-          'Sudah dua setengah tahun sejak Naruto Uzumaki meninggalkan Konohagakure, Desa Daun Tersembunyi, untuk pelatihan intensif menyusul kejadian yang memicu keinginannya untuk menjadi lebih kuat. Kini Akatsuki, organisasi misterius ninja elit nakal, mendekati rencana besar mereka yang mungkin mengancam keselamatan seluruh dunia shinobi.' 
-          'Meskipun Naruto lebih tua dan kejadian mengerikan akan segera terjadi, kepribadiannya tidak banyak berubah—masih cerewet dan kekanak-kanakan—meskipun dia sekarang jauh lebih percaya diri dan memiliki tekad yang lebih besar untuk melindungi teman-teman dan rumahnya. Apapun yang terjadi, Naruto akan terus berjuang demi apa yang penting baginya, bahkan dengan mengorbankan tubuhnya sendiri, dalam kelanjutan kisah tentang anak laki-laki yang ingin menjadi Hokage.',
+          """Bibir kering atau pecah-pecah disebut juga dengan cheilitis. Masalah ini memang umum terjadi dan dapat menimbulkan rasa tidak nyaman. Perlu diketahui jika kulit di bibir jauh lebih tipis dan lebih halus dibandingkan bagian tubuh lainnya. Maka dari itu, rentan untuk alami kekeringan yang akhirnya kering dan pecah-pecah.
+
+Bibir dapat kekeringan akibat kekurangan kelenjar minyak, sehingga kelembapannya menurun. Untuk mengatasi masalah ini, ada lho berbagai macam pengobatan rumahan yang dapat membuat bibir kembali sehat seperti sebelumnya. Nah, berikut beberapa cara mengatasi bibir kering secara alami yang bisa dilakukan:
+
+1. Minyak Kelapa
+Salah satu cara mengatasi bibir kering adalah dengan mengoleskan minyak kelapa. Cairan ini termasuk dalam emolien yang mampu melembapkan kulit dan juga melindungi kulit dengan cara meningkatkan fungsi perlindungannya. Selain itu, minyak kelapa juga memiliki sifat anti-inflamasi dan anti-bakteri yang baik untuk mengatasi bibir kering dan pecah-pecah. Dengan mengoleskan cairan ini, diharapkan kelembapan bibir kembali seperti semula.
+
+2. Lidah Buaya
+Pengaplikasian lidah buaya di bibir juga sangat baik sebagai cara mengatasi bibir kering. Hal ini karena sifat anti-inflamasi dan efek yang menenangkan sangat efektif untuk menjaga bibir agar tetap lembap. Kamu bisa menggunakan daun lidah buaya dan mengambil gel yang ada untuk dioleskan ke bibir. Selain itu, penggunaan produk dengan kandungan lidah buaya juga bisa digunakan agar masalah pada bibir tersebut bisa teratasi.
+
+3. Madu
+Madu memiliki banyak manfaat bagi kesehatan tubuh, termasuk juga untuk bibir. Cara mengatasi bibir kering dengan madu adalah dengan mengoleskannya pada bibir. Madu dapat membantu untuk melembapkan bibir dan melindungi bibir dari infeksi. Cairan ini juga dapat membantu untuk menghilangkan kulit yang kering dan mati dari bibir. Selain itu, sifat antimikroba, anti-inflamasi, serta penyembuhan luka dari madu memang sangat baik untuk kesehatan bibir.
+
+4. Petroleum Jelly
+Petroleum jelly adalah salah satu bahan utama pada banyak lip balm yang kerap diaplikasikan di bibir agar tetap lembap. Nah, cara mengatasi bibir kering ini memang mampu mengunci kelembapan, sehingga bibir tidak mudah kering. Meski begitu, sifat oklusif dari jeli ini hanya dapat melindungi bibir dari kehilangan kelembapan, bukan memberikannya. Penting juga untuk berhati-hati dalam menggunakan petroleum jelly karena dapat menimbulkan reaksi alergi.
+
+
+""",
       ImageAsset:
-          'assets/images/'),
+          'images/'),
   Tips(
       title: 'Bleach',
       description:
@@ -24,7 +42,7 @@ List<Tips> TipsList = [
           'Namun, karena Rukia tidak dapat memperoleh kembali kekuatannya, Ichigo diberi tugas berat untuk memburu Hollow yang mengganggu kota mereka. Namun, dia tidak sendirian dalam pertarungannya, karena dia kemudian bergabung dengan teman-temannya—teman sekelas Orihime Inoue, Yasutora Sado, dan Uryuu Ishida—yang masing-masing memiliki kemampuan uniknya sendiri. Ketika Ichigo dan rekan-rekannya terbiasa dengan tugas baru mereka dan saling mendukung di dalam dan di luar medan perang, Soul Reaper muda segera mengetahui bahwa Hollow bukanlah satu-satunya ancaman nyata bagi dunia manusia.',
 
       ImageAsset:
-          'assets/images/'),
+          'images/'),
   Tips(
       title: 'One Piece',
       description:
@@ -33,7 +51,7 @@ List<Tips> TipsList = [
           'Saat ia menghadapi banyak tantangan dengan senyum lebar di wajahnya, Luffy mengumpulkan teman-teman yang unik untuk bergabung dengannya dalam usaha ambisiusnya, bersama-sama menerima bahaya dan keajaiban dalam petualangan sekali seumur hidup mereka.',
 
       ImageAsset:
-          'assets/images/'),
+          'images/'),
   Tips(
       title: "Dragon Ball Z",
 
@@ -41,7 +59,7 @@ List<Tips> TipsList = [
           'Tujuh tahun setelah peristiwa Dragon Ball Z, Bumi berada dalam kedamaian, dan penduduknya hidup bebas dari bahaya apa pun yang mengintai di alam semesta. Namun, perdamaian ini hanya berumur pendek; kejahatan yang tertidur terbangun di kegelapan galaksi: Beerus, Dewa Penghancur yang kejam.'
           'Terganggu oleh ramalan bahwa dia akan dikalahkan oleh "Dewa Super Saiyan", Beerus dan pelayan malaikatnya, Whis, mulai mencari makhluk misterius ini di alam semesta. Tak lama kemudian, mereka mencapai Bumi di mana mereka bertemu Gokuu Son, salah satu pejuang terkuat di planet ini, dan teman-temannya yang sama kuatnya.',
       ImageAsset:
-          'assets/images/PILEMAS.png'),
+          'images/PILEMAS.png'),
   Tips(
       title: "Hunter x Hunter",
 
@@ -50,14 +68,14 @@ List<Tips> TipsList = [
           "Peserta ambisius yang menantang ujian terkenal ini memiliki alasannya sendiri. Apa yang mendorong Gon Freecss yang berusia 12 tahun adalah menemukan Ging, ayahnya, dan seorang Hunter sendiri. Percaya bahwa dia akan bertemu ayahnya dengan menjadi seorang Hunter, Gon mengambil langkah pertama untuk menempuh jalan yang sama."
           "Selama Ujian Hunter, Gon berteman dengan mahasiswa kedokteran Leorio Paladiknight, Kurapika yang pendendam, dan mantan pembunuh Killua Zoldyck. Meskipun motif mereka sangat berbeda satu sama lain, mereka bersatu demi tujuan yang sama dan mulai menjelajah ke dunia yang penuh bahaya.",
       ImageAsset:
-          'assets/images/'),
+          'images/'),
   Tips(
       title: "Jujutsu Kaisen",
 
       description:
           "Iseng terlibat dalam aktivitas paranormal tak berdasar dengan Klub Ilmu Gaib, siswa sekolah menengah Yuuji Itadori menghabiskan hari-harinya di ruang klub atau rumah sakit, di mana dia mengunjungi kakeknya yang terbaring di tempat tidur. Namun, gaya hidup santai ini segera berubah menjadi aneh ketika dia tanpa sadar menemukan benda terkutuk. Memicu serangkaian kejadian supernatural, Yuuji mendapati dirinya tiba-tiba dimasukkan ke dalam dunia Kutukan—makhluk mengerikan yang terbentuk dari kebencian dan kenegatifan manusia—setelah menelan benda tersebut, yang ternyata adalah jari milik iblis Sukuna Ryoumen, Raja Kutukan."
           "Yuuji merasakan langsung ancaman yang ditimbulkan oleh Kutukan ini terhadap masyarakat saat dia menemukan kekuatan barunya. Diperkenalkan ke Sekolah Menengah Jujutsu Prefektur Tokyo, dia mulai menempuh jalan yang tidak bisa dia kembalikan lagi—jalan seorang penyihir Jujutsu.",
-      ImageAsset: 'assets/images/'),
+      ImageAsset: 'images/'),
   Tips(
       title: "Gintama",
 
@@ -66,7 +84,7 @@ List<Tips> TipsList = [
           "Masuklah Gintoki Sakata, seorang pria eksentrik berambut perak yang selalu membawa pedang kayu dan mempertahankan statusnya sebagai seorang samurai meskipun ada larangan. Sebagai pendiri Yorozuya, sebuah usaha kecil-kecilan untuk pekerjaan sambilan, Gintoki sering kali melakukan upaya untuk membantu orang lain—meskipun biasanya dengan cara yang agak aneh dan tidak terduga."
           "Dibantu oleh Shinpachi Shimura, seorang anak laki-laki berkacamata yang konon sedang mempelajari jalan samurai; Kagura, gadis tomboy dengan kekuatan super dan nafsu makan yang tak ada habisnya; dan Sadaharu, anjing peliharaan raksasa mereka yang suka menggigit kepala orang, Yorozuya menghadapi apa pun mulai dari bangsawan asing hingga perkelahian dengan geng lokal di dunia Edo yang selalu berubah.",
       ImageAsset:
-          'assets/images/'),
+          'images/'),
   Tips(
       title: "Dr. Stone",
 
@@ -75,5 +93,5 @@ List<Tips> TipsList = [
           "Beberapa milenium kemudian, Taiju terbangun dan mendapati dunia modern sama sekali tidak ada, karena alam telah berkembang pesat di tahun-tahun ketika umat manusia masih terhenti. Di antara dunia patung batu, Taiju bertemu dengan manusia hidup lainnya: temannya yang mencintai sains, Senkuu, yang telah aktif selama beberapa bulan. Taiju mengetahui bahwa Senkuu telah mengembangkan skema besar—untuk meluncurkan kebangkitan peradaban sepenuhnya dengan sains. Kekuatan Taiju dan otak Senkuu bersatu membentuk kemitraan yang hebat, dan mereka segera menemukan metode untuk menghidupkan kembali mereka yang membatu."
           "Namun, rencana induk Senkuu terancam ketika ideologinya ditantang oleh mereka yang bangkit. Sementara itu, alasan membatunya umat manusia masih belum diketahui.",
       ImageAsset:
-          'assets/images/'),
+          'images/'),
 ];
