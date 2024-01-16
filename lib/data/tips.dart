@@ -128,21 +128,64 @@ Anda dapat mempraktikkan berbagai cara menjaga kesehatan tubuh di atas. Agar kes
       ImageAsset:
           'images/ginjal.jpg'),
   Tips(
-      title: "Hunter x Hunter",
+      title: "Menjaga Kesehatan Mata",
 
       description:
-          "Pemburu mengabdikan diri untuk menyelesaikan tugas-tugas berbahaya, mulai dari melintasi wilayah yang belum dipetakan di dunia hingga menemukan barang langka dan monster. Sebelum menjadi Hunter, seseorang harus lulus Ujian Hunter—sebuah proses seleksi berisiko tinggi di mana sebagian besar pelamar berakhir dengan cacat atau lebih buruk lagi, meninggal."
-          "Peserta ambisius yang menantang ujian terkenal ini memiliki alasannya sendiri. Apa yang mendorong Gon Freecss yang berusia 12 tahun adalah menemukan Ging, ayahnya, dan seorang Hunter sendiri. Percaya bahwa dia akan bertemu ayahnya dengan menjadi seorang Hunter, Gon mengambil langkah pertama untuk menempuh jalan yang sama."
-          "Selama Ujian Hunter, Gon berteman dengan mahasiswa kedokteran Leorio Paladiknight, Kurapika yang pendendam, dan mantan pembunuh Killua Zoldyck. Meskipun motif mereka sangat berbeda satu sama lain, mereka bersatu demi tujuan yang sama dan mulai menjelajah ke dunia yang penuh bahaya.",
+          """"Menjaga kesehatan mata sangat penting untuk menjaga kenyamanan penglihatan dan mencegah masalah kesehatan mata. Berikut adalah beberapa tips untuk menjaga kesehatan mata:
+
+1. Istirahat untuk Mata
+  - Praktikkan aturan 20-20-20: Setiap 20 menit, berfokus pada objek yang berjarak 20 kaki (6 meter) selama setidaknya 20 detik untuk merilekskan mata.
+  - Selama bekerja di depan komputer, istirahatlah sejenak dan fokuskan mata ke kejauhan.
+
+2. Pencahayaan yang Baik
+  - Pastikan ruangan Anda memiliki pencahayaan yang cukup.
+  - Hindari kilatan yang dapat menyebabkan ketegangan mata. Gunakan pencahayaan yang lembut dan tidak terlalu terang.
+
+3. Posisi Monitor
+  - Atur posisi monitor komputer agar berada pada tingkat mata atau sedikit di bawahnya untuk mengurangi ketegangan pada mata.
+
+""",
       ImageAsset:
-          'images/'),
+          'images/mata.jpeg'),
   Tips(
-      title: "Jujutsu Kaisen",
+      title: "Makanan 4 Sehat 5 Sempurna",
 
       description:
-          "Iseng terlibat dalam aktivitas paranormal tak berdasar dengan Klub Ilmu Gaib, siswa sekolah menengah Yuuji Itadori menghabiskan hari-harinya di ruang klub atau rumah sakit, di mana dia mengunjungi kakeknya yang terbaring di tempat tidur. Namun, gaya hidup santai ini segera berubah menjadi aneh ketika dia tanpa sadar menemukan benda terkutuk. Memicu serangkaian kejadian supernatural, Yuuji mendapati dirinya tiba-tiba dimasukkan ke dalam dunia Kutukan—makhluk mengerikan yang terbentuk dari kebencian dan kenegatifan manusia—setelah menelan benda tersebut, yang ternyata adalah jari milik iblis Sukuna Ryoumen, Raja Kutukan."
-          "Yuuji merasakan langsung ancaman yang ditimbulkan oleh Kutukan ini terhadap masyarakat saat dia menemukan kekuatan barunya. Diperkenalkan ke Sekolah Menengah Jujutsu Prefektur Tokyo, dia mulai menempuh jalan yang tidak bisa dia kembalikan lagi—jalan seorang penyihir Jujutsu.",
-      ImageAsset: 'images/'),
+          """"4 Sehat 5 Sempurna" adalah istilah yang berasal dari kampanye kesehatan yang dicanangkan oleh pemerintah Indonesia pada masa Orde Baru. Kampanye ini bertujuan untuk meningkatkan kesadaran masyarakat terhadap pentingnya menjaga kesehatan. Berikut adalah penjelasan singkat mengenai "4 Sehat 5 Sempurna":
+
+4 Sehat:
+
+1. Beras
+ Beras Mewakili sumber karbohidrat sebagai sumber energi. Konsumsi beras atau sumber karbohidrat lainnya seperti nasi, mie, atau roti.
+
+2. Lauk Pauk
+Mewakili sumber protein. Ini dapat berasal dari hewani seperti daging, ikan, atau telur, maupun dari nabati seperti tahu dan tempe.
+
+3. Sayur-Mayur
+Mewakili sumber serat, vitamin, dan mineral. Konsumsi berbagai jenis sayuran untuk mendapatkan nutrisi yang seimbang.
+
+4. Buah-Buahan
+Mewakili sumber vitamin dan mineral. Konsumsi buah-buahan segar sebagai camilan atau bagian dari makanan sehari-hari.
+
+5 Sempurna:
+
+1. Sehat Badan
+ Beras Mewakili sumber karbohidrat sebagai sumber energi. Konsumsi beras atau sumber karbohidrat lainnya seperti nasi, mie, atau roti.
+
+2. Sempurna Pemikiran
+Mencerminkan keseimbangan mental dan kejiwaan yang baik.
+
+3. Sempurna Cita Rasa
+Mencerminkan kepuasan dalam konsumsi makanan yang sehat dan lezat.
+
+4. Sempurna Masyarakat
+Mencerminkan kehidupan sosial yang seimbang dan harmonis.
+
+5. Sempurna Iman dan Taqwa
+Mencerminkan spiritualitas dan nilai-nilai agama yang dianut.
+
+""",
+      ImageAsset: 'images/sehat.webp'),
   Tips(
       title: "Gintama",
 
