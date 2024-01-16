@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:mandiri_pbb/data/obat.dart';
+import 'package:mandiri_pbb/data/tips.dart';
 
 class ObatDetailsScreen extends StatelessWidget {
-  final Obat obat;
+  final Tips obat;
 
   ObatDetailsScreen(this.obat);
 
@@ -34,10 +34,6 @@ class ObatDetailsScreen extends StatelessWidget {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text(
-                          obat.year.toString(),
-                          style: TextStyle(fontSize: 17.0, fontStyle: FontStyle.italic),
-                        ),
                         SizedBox(height: 8.0),
                         Text(
                           obat.description,
