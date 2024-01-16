@@ -23,7 +23,6 @@ class ObatDetailsScreen extends StatelessWidget {
                 Center(
                   child: Image.asset(
                     obat.ImageAsset,
-                    height: 400, 
                   ),
                 ),
                 SizedBox(height: 16.0), 
