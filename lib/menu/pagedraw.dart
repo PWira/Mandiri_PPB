@@ -3,6 +3,8 @@
 import 'package:flutter/material.dart';
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:mandiri_pbb/pages/homepage.dart';
+import 'package:mandiri_pbb/pages/menuobat.dart';
+import 'package:mandiri_pbb/pages/tentang.dart';
 
 class PageDraw extends StatelessWidget {
   PageDraw({super.key});
@@ -20,7 +22,7 @@ class PageDraw extends StatelessWidget {
       body:
         PageView(
         controller: _pageController,
-        children: [HomePage(), ContactPage()],
+        children: [MenuObat(), HomePage(), Tentang()],
         ),
       bottomNavigationBar: CurvedNavigationBar(
         backgroundColor: Colors.grey.shade400,
@@ -40,7 +42,7 @@ class PageDraw extends StatelessWidget {
         ],
         onTap: (index) {
           _pageController.animateToPage(index,
-              duration: const Duration(milliseconds: 300),
+              duration: const Duration(milliseconds: 250),
               curve: Curves.easeOut);
         },
       ),
