@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mandiri_pbb/pages/list_anggota.dart';
+import 'package:mandiri_pbb/data/list_anggota.dart';
 
 class Anggota extends StatefulWidget {
   const Anggota({super.key});

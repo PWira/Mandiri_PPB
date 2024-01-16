@@ -1,19 +1,77 @@
+// ignore_for_file: must_be_immutable
+
 import 'package:flutter/material.dart';
 
 class DetailAnggota extends StatefulWidget {
-  final String npm, nama, prodi, foto;
+  final String npm, nama, prodi, foto, dart, html, php, css;
+
   DetailAnggota({
     required this.npm,
     required this.nama,
     required this.prodi,
     required this.foto,
+    required this.dart,
+    required this.html,
+    required this.php,
+    required this.css,
   });
 
   @override
-  State<DetailAnggota> createState() => _DetailAnggotaState();
+  State<DetailAnggota> createState() => _DetailAnggotaState(
+        npm: npm,
+        nama: nama,
+        prodi: prodi,
+        foto: foto,
+        dart: dart,
+        html: html,
+        php: php,
+        css: css,
+      );
 }
 
 class _DetailAnggotaState extends State<DetailAnggota> {
+  final String npm, nama, prodi, foto, dart, html, php, css;
+
+  _DetailAnggotaState({
+    required this.npm,
+    required this.nama,
+    required this.prodi,
+    required this.foto,
+    required this.dart,
+    required this.html,
+    required this.php,
+    required this.css,
+  });
+
+  var skills = [
+    {
+      'skill': "Dart",
+      'percentage': '',
+    },
+    {
+      'skill': "HTML",
+      'percentage': '',
+    },
+    {
+      'skill': "PHP",
+      'percentage': '',
+    },
+    {
+      'skill': "CSS",
+      'percentage': '',
+    },
+  ];
+
+  @override
+  void initState() {
+    super.initState();
+
+    // Initialize the percentages in the skills list with widget values
+    skills[0]['percentage'] = dart;
+    skills[1]['percentage'] = html;
+    skills[2]['percentage'] = php;
+    skills[3]['percentage'] = css;
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -134,136 +192,50 @@ class _DetailAnggotaState extends State<DetailAnggota> {
             const SizedBox(
               height: 15,
             ),
-            Container(
-              child: Expanded(
-                  child: ListView(
-                children: [
-                  Card(
-                    color: Colors.white70,
-                    margin:
-                        const EdgeInsets.only(left: 35, right: 35, bottom: 10),
-                    shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(30),
-                    ),
-                    child: const ListTile(
-                      leading: Icon(
-                        Icons.history,
-                        color: Colors.black54,
-                      ),
-                      title: Text(
-                        'History',
-                        style: TextStyle(
-                          fontSize: 18,
-                          fontWeight: FontWeight.bold,
+            Column(
+              children: [
+                for (int i = 0; i < skills.length; i++)
+                  Container(
+                    margin: EdgeInsets.only(bottom: 15.0),
+                    child: Row(
+                      children: [
+                        Expanded(
+                          flex:
+                              int.parse(skills[i]['percentage'].toString()),
+                          child: Container(
+                            padding: EdgeInsets.only(left: 10.0),
+                            alignment: Alignment.centerLeft,
+                            height: 38.0,
+                            child: Text(skills[i]['skill'].toString(),style: TextStyle(color: Colors.white)),
+                            color: Colors.indigo[800],
+                          ),
                         ),
-                      ),
-                      trailing: Icon(
-                        Icons.arrow_forward_ios_outlined,
-                        color: Colors.black54,
-                      ),
-                    ),
-                  ),
-                  const SizedBox(
-                    height: 10,
-                  ),
-                  Card(
-                    color: Colors.white70,
-                    margin:
-                        const EdgeInsets.only(left: 35, right: 35, bottom: 10),
-                    shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(30),
-                    ),
-                    child: const ListTile(
-                      leading: Icon(Icons.help_outline, color: Colors.black54),
-                      title: Text(
-                        'Help & Support',
-                        style: TextStyle(
-                          fontSize: 18,
-                          fontWeight: FontWeight.bold,
+                        SizedBox(
+                          width: 10.0,
                         ),
-                      ),
-                      trailing: Icon(
-                        Icons.arrow_forward_ios_outlined,
-                        color: Colors.black54,
-                      ),
-                    ),
-                  ),
-                  const SizedBox(
-                    height: 10,
-                  ),
-                  Card(
-                    color: Colors.white70,
-                    margin:
-                        const EdgeInsets.only(left: 35, right: 35, bottom: 10),
-                    shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(30),
-                    ),
-                    child: const ListTile(
-                      leading: Icon(
-                        Icons.privacy_tip_sharp,
-                        color: Colors.black54,
-                      ),
-                      title: Text(
-                        'Settings',
-                        style: TextStyle(
-                          fontSize: 18,
-                          fontWeight: FontWeight.bold,
+                        Expanded(
+                          // remaining (blank part)
+                          flex: 100 -
+                              int.parse(skills[i]['percentage'].toString()),
+                          child: Divider(
+                            color: Colors.indigo[800],
+                          ),
                         ),
-                      ),
-                      trailing: Icon(Icons.arrow_forward_ios_outlined),
+                        SizedBox(
+                          width: 10.0,
+                        ),
+                        Text(
+                          "${skills[i]['percentage']} %",
+                          style: TextStyle(
+                            color: Colors.indigo[800],
+                            fontSize: 16.0,
+                          ),
+                        )
+                      ],
                     ),
                   ),
-                  const SizedBox(
-                    height: 10,
-                  ),
-                  Card(
-                    color: Colors.white70,
-                    margin:
-                        const EdgeInsets.only(left: 35, right: 35, bottom: 10),
-                    shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(30),
-                    ),
-                    child: const ListTile(
-                      leading: Icon(
-                        Icons.add_reaction_sharp,
-                        color: Colors.black54,
-                      ),
-                      title: Text(
-                        'Invite a Friend',
-                        style: TextStyle(
-                            fontSize: 18, fontWeight: FontWeight.bold),
-                      ),
-                      trailing: Icon(
-                        Icons.arrow_forward_ios_outlined,
-                        color: Colors.black54,
-                      ),
-                    ),
-                  ),
-                  const SizedBox(
-                    height: 10,
-                  ),
-                  Card(
-                    color: Colors.white70,
-                    margin:
-                        const EdgeInsets.only(left: 35, right: 35, bottom: 10),
-                    shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(30)),
-                    child: const ListTile(
-                      leading: Icon(
-                        Icons.logout,
-                        color: Colors.black54,
-                      ),
-                      title: Text(
-                        'Logout',
-                        style: TextStyle(
-                            fontSize: 18, fontWeight: FontWeight.bold),
-                      ),
-                      trailing: Icon(Icons.arrow_forward_ios_outlined),
-                    ),
-                  )
-                ],
-              )),
-            )
+                  ],
+                )
           ],
         ),
       ),

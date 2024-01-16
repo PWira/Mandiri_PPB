@@ -9,44 +9,70 @@ class ListAnggota extends StatefulWidget {
 }
 
 class _ListAnggotaState extends State<ListAnggota> {
+
   var mahasiswa = [
     {
       'npm': '011210009',
       'nama': 'Prayoga Kurniawan',
       'prodi': 'Sarjana Informatika',
-      'foto': 'images/yoga.jpg'
+      'foto': 'images/yoga.jpg',
+      'dart':60,
+      'html':60,
+      'php':60,
+      'css':60,
     },
     {
       'npm': '011210046',
       'nama': 'Femas Kurniawan',
       'prodi': 'Sarjana Informatika',
-      'foto': 'images/femas.jpg'
+      'foto': 'images/femas.jpg',
+      'dart':60,
+      'html':60,
+      'php':60,
+      'css':60,
     },
     {
       'npm': '011210035',
       'nama': 'Muhammad Alif Al Fajra',
       'prodi': 'Sarjana Informatika',
       'foto': 'images/Hokage_Alif.jpg',
+      'dart':60,
+      'html':60,
+      'php':60,
+      'css':60,
     },
     {
       'npm': '011210022',
       'nama': 'Muhammad Fajar Ikhwan',
       'prodi': 'Sarjana Informatika',
-      'foto': 'images/boy.jpg'
+      'foto': 'images/boy.jpg',
+      'dart':60,
+      'html':60,
+      'php':60,
+      'css':60,
     },
     {
       'npm': '011210023',
       'nama': 'Putra Wira Albarokah',
       'prodi': 'Sarjana Informatika',
-      'foto': 'images/putra.jpg'
+      'foto': 'images/putra.jpg',
+      'dart':65,
+      'html':95,
+      'php':90,
+      'css':95,
     },
     {
       'npm': '011210043',
       'nama': 'Rafly Dief Setiawan',
       'prodi': 'Sarjana Informatika',
-      'foto': 'images/raply.jpg'
+      'foto': 'images/raply.jpg',
+      'dart':60,
+      'html':60,
+      'php':60,
+      'css':60,
     },
   ];
+  
 
   @override
   Widget build(BuildContext context) {
@@ -64,17 +90,15 @@ class _ListAnggotaState extends State<ListAnggota> {
                       npm: mahasiswa[i]['npm'].toString(),
                       prodi: mahasiswa[i]['prodi'].toString(),
                       foto: mahasiswa[i]['foto'].toString(),
+                      dart: mahasiswa[i]['dart'].toString(),
+                      html: mahasiswa[i]['html'].toString(),
+                      php: mahasiswa[i]['php'].toString(),
+                      css: mahasiswa[i]['css'].toString(),
                     ),
                   ),
                 );
               },
               child: Container(
-                decoration: BoxDecoration(
-                    color: mahasiswa[i]['prodi'] ==
-                            'Sistem Informasi Program Sarjana'
-                        ? Color.fromARGB(255, 114, 126, 22)
-                        : Color.fromARGB(255, 191, 200, 205),
-                ),
                 child: ListTile(
                   title: Column(
                     children: [
