@@ -11,12 +11,11 @@ class Tips {
 
 List<Tips> TipsList = [
   Tips(
-      title: 'Naruto Shippuden',
+      title: 'Makanan 4 Sehat 5 Sempurna',
       description:
-          'Sudah dua setengah tahun sejak Naruto Uzumaki meninggalkan Konohagakure, Desa Daun Tersembunyi, untuk pelatihan intensif menyusul kejadian yang memicu keinginannya untuk menjadi lebih kuat. Kini Akatsuki, organisasi misterius ninja elit nakal, mendekati rencana besar mereka yang mungkin mengancam keselamatan seluruh dunia shinobi.' 
-          'Meskipun Naruto lebih tua dan kejadian mengerikan akan segera terjadi, kepribadiannya tidak banyak berubah—masih cerewet dan kekanak-kanakan—meskipun dia sekarang jauh lebih percaya diri dan memiliki tekad yang lebih besar untuk melindungi teman-teman dan rumahnya. Apapun yang terjadi, Naruto akan terus berjuang demi apa yang penting baginya, bahkan dengan mengorbankan tubuhnya sendiri, dalam kelanjutan kisah tentang anak laki-laki yang ingin menjadi Hokage.',
+          "(4 Sehat 5 Sempurna) adalah istilah yang berasal dari kampanye kesehatan yang dicanangkan oleh pemerintah Indonesia pada masa Orde Baru. Kampanye ini bertujuan untuk meningkatkan kesadaran masyarakat terhadap pentingnya menjaga kesehatan. Berikut adalah penjelasan singkat mengenai (4 Sehat 5 Sempurna):",
       ImageAsset:
-          'assets/images/'),
+          'assets/images/sehat.webp'),
   Tips(
       title: 'Bleach',
       description:
