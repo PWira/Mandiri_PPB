@@ -11,7 +11,7 @@ class ObatDetailsScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text(obat.title),
-        backgroundColor: Color.fromARGB(255, 252, 49, 35),
+        backgroundColor: Color.fromARGB(255, 87,139,152),
       ),
       body: Container(
         child: Padding(
