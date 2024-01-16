@@ -13,37 +13,37 @@ class _ListAnggotaState extends State<ListAnggota> {
     {
       'npm': '011210009',
       'nama': 'Prayoga Kurniawan',
-      'prodi': 'Informatika Program Sarjana',
+      'prodi': 'Sarjana Informatika',
       'foto': 'images/yoga.jpg'
     },
     {
       'npm': '011210046',
       'nama': 'Femas Kurniawan',
-      'prodi': 'Informatika Program Sarjana',
+      'prodi': 'Sarjana Informatika',
       'foto': 'images/femas.jpg'
     },
     {
       'npm': '011210035',
       'nama': 'Muhammad Alif Al Fajra',
-      'prodi': 'Informatika Program Sarjana',
+      'prodi': 'Sarjana Informatika',
       'foto': 'images/Hokage_Alif.jpg',
     },
     {
       'npm': '011210022',
       'nama': 'Muhammad Fajar Ikhwan',
-      'prodi': 'Informatika Program Sarjana',
+      'prodi': 'Sarjana Informatika',
       'foto': 'images/boy.jpg'
     },
     {
       'npm': '011210023',
       'nama': 'Putra Wira Albarokah',
-      'prodi': 'Informatika Program Sarjana',
+      'prodi': 'Sarjana Informatika',
       'foto': 'images/putra.jpg'
     },
     {
       'npm': '011210043',
       'nama': 'Rafly Dief Setiawan',
-      'prodi': 'Informatika Program Sarjana',
+      'prodi': 'Sarjana Informatika',
       'foto': 'images/raply.jpg'
     },
   ];
