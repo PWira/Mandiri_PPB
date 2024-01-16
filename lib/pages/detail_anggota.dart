@@ -198,48 +198,44 @@ class _DetailAnggotaState extends State<DetailAnggota> {
                   Container(
                     margin: EdgeInsets.only(bottom: 15.0),
                     child: Row(
-                      crossAxisAlignment: CrossAxisAlignment.start, // Align text at the top
-                      mainAxisSize: MainAxisSize.min,
                       children: [
-                        Flexible(
+                        Expanded(
+                          flex:
+                              int.parse(skills[i]['percentage'].toString()),
                           child: Container(
                             padding: EdgeInsets.only(left: 10.0),
                             alignment: Alignment.centerLeft,
                             height: 38.0,
-                            child: Text(
-                              skills[i]['skill'].toString(),
-                              style: TextStyle(color: Colors.white),
-                            ),
+                            child: Text(skills[i]['skill'].toString(),style: TextStyle(color: Colors.white)),
                             color: Colors.indigo[800],
                           ),
                         ),
                         SizedBox(
                           width: 10.0,
                         ),
-                        Flexible(
-                          child: Container(
-                            child: Divider(
-                              color: Colors.indigo[800],
-                            ),
+                        Expanded(
+                          // remaining (blank part)
+                          flex: 100 -
+                              int.parse(skills[i]['percentage'].toString()),
+                          child: Divider(
+                            color: Colors.indigo[800],
                           ),
                         ),
                         SizedBox(
                           width: 10.0,
                         ),
-                        Flexible(
-                          child: Text(
-                            "${skills[i]['percentage']} %",
-                            style: TextStyle(
-                              color: Colors.indigo[800],
-                              fontSize: 16.0,
-                            ),
+                        Text(
+                          "${skills[i]['percentage']} %",
+                          style: TextStyle(
+                            color: Colors.indigo[800],
+                            fontSize: 16.0,
                           ),
-                        ),
+                        )
                       ],
                     ),
                   ),
-              ],
-            )
+                  ],
+                )
           ],
         ),
       ),
