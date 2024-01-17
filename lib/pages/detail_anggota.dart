@@ -76,7 +76,7 @@ class _DetailAnggotaState extends State<DetailAnggota> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(
+      body: SingleChildScrollView(
         child: Column(
           children: [
             SizedBox(
