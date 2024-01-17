@@ -59,13 +59,6 @@ class Tentang extends StatelessWidget {
                 Text(
                   '6. Rafly Dief Setiawan',
                 ),
-                const SizedBox(height: 16.0),
-                ElevatedButton(
-                  onPressed: () {
-                    
-                  },
-                  child: Text('Hubungi Kami'),
-                ),
               ],
             ),
           ),
