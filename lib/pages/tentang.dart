@@ -39,25 +39,17 @@ class Tentang extends StatelessWidget {
                 ),
                 const SizedBox(height: 16.0),
                 Text(
-                  'Anggota :'
+                  'Anggota :',
+                  textAlign: TextAlign.left,
                 ),
                 Text(
-                  '1. Prayoga Kurniawan',
-                ),
-                Text(
-                  '2. Femas Kurniawan'
-                ),
-                Text(
-                  '3. Muhammad Alif Al Fajra'
-                ),
-                Text(
-                  '4. Muhammad Fajar Ikhwan'
-                ),
-                Text(
-                  '5. Putra Wira Albarokah'
-                ),
-                Text(
-                  '6. Rafly Dief Setiawan',
+                  '1. Prayoga Kurniawan ( 011210009 )\n' 
+                  '2. Femas Kurniawan ( 011210046 )\n'
+                  '3. Muhammad Alif Al Fajra ( 011210035 )\n'
+                  '4. Muhammad Fajar Ikhwan ( 011210022 )\n'
+                  '5. Putra Wira Albarokah ( 011210023 )\n'
+                  '6. Rafly Dief Setiawan ( 011210043 )',
+                  textAlign: TextAlign.left,
                 ),
               ],
             ),
