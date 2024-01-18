@@ -1,9 +1,10 @@
 // ignore_for_file: must_be_immutable
 
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class DetailAnggota extends StatefulWidget {
-  final String npm, nama, prodi, quotes, foto, dart, html, php, css;
+  final String npm, nama, prodi, quotes, foto, linkdn, tiktok, ig, wa, dart, html, php, css;
 
   DetailAnggota({
     required this.npm,
@@ -11,6 +12,10 @@ class DetailAnggota extends StatefulWidget {
     required this.prodi,
     required this.quotes,
     required this.foto,
+    required this.linkdn,
+    required this.tiktok,
+    required this.ig,
+    required this.wa,
     required this.dart,
     required this.html,
     required this.php,
@@ -24,6 +29,10 @@ class DetailAnggota extends StatefulWidget {
         prodi: prodi,
         quotes: quotes,
         foto: foto,
+        linkdn: linkdn,
+        tiktok: tiktok,
+        ig: ig,
+        wa: wa,
         dart: dart,
         html: html,
         php: php,
@@ -32,7 +41,7 @@ class DetailAnggota extends StatefulWidget {
 }
 
 class _DetailAnggotaState extends State<DetailAnggota> {
-  final String npm, nama, prodi, quotes, foto, dart, html, php, css;
+  final String npm, nama, prodi, quotes, foto, linkdn, tiktok, ig, wa, dart, html, php, css;
 
   _DetailAnggotaState({
     required this.npm,
@@ -40,6 +49,10 @@ class _DetailAnggotaState extends State<DetailAnggota> {
     required this.prodi,
     required this.quotes,
     required this.foto,
+    required this.linkdn,
+    required this.tiktok,
+    required this.ig,
+    required this.wa,
     required this.dart,
     required this.html,
     required this.php,
@@ -109,34 +122,55 @@ class _DetailAnggotaState extends State<DetailAnggota> {
               height: 15,
             ),
             Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: const [
-                CircleAvatar(
-                  backgroundImage: AssetImage("images/linkedin.png"),
-                ),
-                SizedBox(
-                  width: 15,
-                ),
-                CircleAvatar(
-                  backgroundImage: AssetImage("images/tiktok.png"),
-                ),
-                SizedBox(
-                  width: 15,
-                ),
-                CircleAvatar(
-                  backgroundImage: AssetImage("images/ig.jpg"),
-                ),
-                SizedBox(
-                  width: 15,
-                ),
-                CircleAvatar(
-                  backgroundImage: AssetImage("images/wa.png"),
-                )
-              ],
-            ),
-            const SizedBox(
-              height: 20,
-            ),
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      GestureDetector(
+                        onTap: () {
+                          launch(widget.linkdn);
+                        },
+                        child: CircleAvatar(
+                          backgroundImage: AssetImage("images/linkedn.png"),
+                        ),
+                      ),
+                      SizedBox(
+                        width: 15,
+                      ),
+                      GestureDetector(
+                        onTap: () {
+                          
+                          launch(widget.tiktok);
+                        },
+                        child: CircleAvatar(
+                          backgroundImage: AssetImage("images/tiktok.png"),
+                        ),
+                      ),
+                      SizedBox(
+                        width: 15,
+                      ),
+                      GestureDetector(
+                        onTap: () {
+                          
+                          launch(widget.ig);
+                        },
+                        child: CircleAvatar(
+                          backgroundImage: AssetImage("images/ig.jpg"),
+                        ),
+                      ),
+                      SizedBox(
+                        width: 15,
+                      ),
+                      GestureDetector(
+                        onTap: () {
+                         
+                          launch(widget.wa);
+                        },
+                        child: CircleAvatar(
+                          backgroundImage: AssetImage("images/wa.png"),
+                        ),
+                      ),
+                    ],
+                  ),
+            const SizedBox(height: 20),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [

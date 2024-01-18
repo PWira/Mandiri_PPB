@@ -251,4 +251,13 @@ kemungkinan seseorang sakit lebih lama, tetapi juga dapat membuat orang lain ber
 """,
       ImageAsset:
           'images/gg.jpg'),
+  Tips(
+title: "Makan Ayam Kaya Protein",
+
+      description:
+          """Ayam Joget Kaya Akan Protein
+
+""",
+      ImageAsset:
+          'images/ayam.gif'),
 ];
