@@ -3,12 +3,13 @@
 import 'package:flutter/material.dart';
 
 class DetailAnggota extends StatefulWidget {
-  final String npm, nama, prodi, foto, dart, html, php, css;
+  final String npm, nama, prodi, quotes, foto, dart, html, php, css;
 
   DetailAnggota({
     required this.npm,
     required this.nama,
     required this.prodi,
+    required this.quotes,
     required this.foto,
     required this.dart,
     required this.html,
@@ -21,6 +22,7 @@ class DetailAnggota extends StatefulWidget {
         npm: npm,
         nama: nama,
         prodi: prodi,
+        quotes: quotes,
         foto: foto,
         dart: dart,
         html: html,
@@ -30,12 +32,13 @@ class DetailAnggota extends StatefulWidget {
 }
 
 class _DetailAnggotaState extends State<DetailAnggota> {
-  final String npm, nama, prodi, foto, dart, html, php, css;
+  final String npm, nama, prodi, quotes, foto, dart, html, php, css;
 
   _DetailAnggotaState({
     required this.npm,
     required this.nama,
     required this.prodi,
+    required this.quotes,
     required this.foto,
     required this.dart,
     required this.html,
@@ -168,10 +171,13 @@ class _DetailAnggotaState extends State<DetailAnggota> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Text(
-                  '(@SkywardChallengers)',
+                  '${widget.quotes}',
                   style: TextStyle(
-                    color: Colors.black
+                    color: Colors.black,
+                    fontWeight: FontWeight.bold,
+                    fontSize: 15,
                   ),
+                  textAlign: TextAlign.center,
                 ),
               ],
             ),
