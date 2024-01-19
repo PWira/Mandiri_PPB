@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mandiri_pbb/data/list_anggota.dart';
 import 'package:mandiri_pbb/data/tips.dart';
 import 'package:mandiri_pbb/pages/detailtips.dart';
 
@@ -20,6 +21,7 @@ class MenuTips extends StatelessWidget {
           itemCount: TipsList.length,
           itemBuilder: (context, index) {
             Tips obat = TipsList[index];
+            Mahasiswa anggota = mahasiswaList[index];
             return Card(
               color: Color.fromARGB(255, 255, 255, 255),
               child: ListTile(
@@ -28,6 +30,7 @@ class MenuTips extends StatelessWidget {
                     Expanded(
                       child: Image.asset(obat.ImageAsset),
                     ),
+                    Text("Oleh : "+anggota.nama, textAlign: TextAlign.center),
                     SizedBox(height: 5),
                     Text(obat.title, textAlign: TextAlign.center),
                   ],
