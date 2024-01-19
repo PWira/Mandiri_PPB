@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:mandiri_pbb/data/list_anggota.dart';
 import 'package:mandiri_pbb/data/tips.dart';
 
 class ObatDetailsScreen extends StatelessWidget {
   final Tips obat;
+  final Mahasiswa anggota;
 
-  ObatDetailsScreen(this.obat);
+  ObatDetailsScreen(this.obat, this.anggota);
 
   @override
   Widget build(BuildContext context) {
@@ -25,7 +27,24 @@ class ObatDetailsScreen extends StatelessWidget {
                     obat.ImageAsset,
                   ),
                 ),
-                SizedBox(height: 16.0), 
+                SizedBox(height: 8.0), 
+                Container(
+                  child: Padding(
+                    padding: const EdgeInsets.all(2.0),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.center,
+                      children: [
+                        SizedBox(height: 8.0),
+                        Text(
+                          'Oleh : '+anggota.nama,
+                          textAlign: TextAlign.justify,
+                          style: TextStyle(fontSize: 18.0),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+                SizedBox(height: 8.0), 
                 Card(
                   elevation: 4.0,
                   child: Padding(

@@ -21,7 +21,7 @@ class MenuTips extends StatelessWidget {
           itemCount: TipsList.length,
           itemBuilder: (context, index) {
             Tips obat = TipsList[index];
-            Mahasiswa anggota = mahasiswaList[index];
+            Mahasiswa anggota = mahasiswaList[index % mahasiswaList.length];
             return Card(
               color: Color.fromARGB(255, 255, 255, 255),
               child: ListTile(
@@ -41,7 +41,7 @@ class MenuTips extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => ObatDetailsScreen(obat)
+                      builder: (context) => ObatDetailsScreen(obat, anggota)
                     ),
                   );
                 },
