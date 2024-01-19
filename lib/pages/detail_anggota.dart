@@ -126,7 +126,7 @@ class _DetailAnggotaState extends State<DetailAnggota> {
                     children: [
                       GestureDetector(
                         onTap: () {
-                          launchUrl(widget.linkdn as Uri);
+                          launch(widget.linkdn);
                         },
                         child: CircleAvatar(
                           backgroundImage: AssetImage("images/linkedn.png"),
@@ -138,7 +138,7 @@ class _DetailAnggotaState extends State<DetailAnggota> {
                       GestureDetector(
                         onTap: () {
                           
-                          launchUrl(widget.tiktok as Uri);
+                          launch(widget.tiktok);
                         },
                         child: CircleAvatar(
                           backgroundImage: AssetImage("images/tiktok.png"),
@@ -150,7 +150,7 @@ class _DetailAnggotaState extends State<DetailAnggota> {
                       GestureDetector(
                         onTap: () {
                           
-                          launchUrl(widget.ig as Uri);
+                          launch(widget.ig);
                         },
                         child: CircleAvatar(
                           backgroundImage: AssetImage("images/ig.jpg"),
@@ -162,7 +162,7 @@ class _DetailAnggotaState extends State<DetailAnggota> {
                       GestureDetector(
                         onTap: () {
                          
-                          launchUrl(widget.wa as Uri);
+                          launch(widget.wa);
                         },
                         child: CircleAvatar(
                           backgroundImage: AssetImage("images/wa.png"),
