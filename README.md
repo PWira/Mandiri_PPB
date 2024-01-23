@@ -1,4 +1,4 @@
-# mandiri_pbb
+# Mandiri_PPB
 
 Kelompok Pemulung Handal
 1. Prayoga Kurniawan (Mandor)
