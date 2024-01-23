@@ -32,3 +32,6 @@ flutter_native_splash:
   web: true 
   color: "#578b98" 
   image: "assets/images/PILEMAS.png"
+  android_12:
+    image: "assets/images/PILEMAS.png"
+    icon_background_color: "#578b98"
